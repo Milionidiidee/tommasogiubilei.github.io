@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommaso Giubilei - Portfolio Analisi Dati</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            max-width: 1000px;
+            width: 100%;
+            margin: 40px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        /* Colonna di sinistra: Stile scuro per contrasto */
+        .sidebar {
+            background-color: #2c3e50;
+            color: #ffffff;
+            width: 35%;
+            padding: 40px 30px;
+        }
+        .sidebar h2 {
+            font-size: 1.2em;
+            text-transform: uppercase;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+        /* Colonna di destra: Contenuto principale */
+        .main-content {
+            width: 65%;
+            padding: 40px 50px;
+        }
+        .header-title h1 {
+            font-size: 2.5em;
+            margin: 0 0 5px 0;
+            color: #2c3e50;
+        }
+        .header-title h2 {
+            font-size: 1.4em;
+            margin: 0 0 30px 0;
+            color: #7f8c8d;
+            font-weight: 400;
+        }
+        .section-title {
+            color: #2980b9;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .item {
+            margin-bottom: 25px;
+        }
+        .item h3 {
+            margin: 0 0 5px 0;
+            color: #34495e;
+            font-size: 1.1em;
+        }
+        .item p {
+            margin: 0;
+            color: #555;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+        /* Bottone per i PDF */
+        .pdf-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #2980b9;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .pdf-btn:hover {
+            background-color: #1f6391;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Informazioni Personali</h2>
+            <ul>
+                <li>Email: tms.gbl@gmail.com</li>
+                <li>Cell: +39 334-7225-439</li>
+                <li>Roma, Italia</li>
+            </ul>
+
+            <h2>Programmazione</h2>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>R</li>
+                <li>C</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="header-title">
+                <h1>Tommaso Giubilei</h1>
+                <h2>Matematica | Business Intelligence</h2>
+            </div>
+
+            <h3 class="section-title">Istruzione</h3>
+            <div class="item">
+                <h3>Laurea Magistrale in Matematica Applicata (110/110)</h3>
+                <p>La Sapienza, Roma | 2026</p>
+                <p><em>Discussa una tesi di ricerca in crittografia dal titolo "Design of a verifiable evolving secret sharing scheme".</em></p>
+            </div>
+            <div class="item">
+                <h3>Laurea in Matematica (104/110)</h3>
+                <p>La Sapienza, Roma | 2023</p>
+                <p><em>Discussa una tesi compilativa in Geometria differenziale.</em></p>
+            </div>
+
+            <h3 class="section-title">Progetti Personali (Analisi Dati)</h3>
+            
+            <div class="item">
+                <h3>Analisi del comportamento dei clienti con Python e SQL</h3>
+                <p>Breve descrizione di 2-3 righe su cosa hai analizzato, i dati di partenza e l'obiettivo finale dell'analisi.</p>
+                <a href="pdf/Metabase - Test.pdf" target="_blank" class="pdf-btn">Visualizza Report Completo (PDF)</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
